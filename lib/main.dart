@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gradients/flutter_gradients.dart';
 
 import './pages/landingPage.dart';
+import './components/BottomNav.dart';
+
 
 void main() => runApp(MyGolf());
 
@@ -29,6 +31,7 @@ class _MyGolfState extends State<MyGolf> {
             ),
           ),
           LandingPage(),
+          BottomNav(),
         ],
       ),
     );
